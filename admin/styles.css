@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0A0A18;
+    color: #ffffff; /* Change text color to white for better contrast */
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+th, td {
+    border: 1px solid #444444; /* Darker border for better contrast */
+    text-align: left;
+    padding: 12px; /* Increased padding for better spacing */
+}
+
+th {
+    background-color: #1f1f2d; /* Darker header color */
+    color: #ffffff; /* White text for header */
+}
+
+tr:nth-child(even) {
+    background-color: #252533; /* Alternate row color */
+}
+
+tr:hover {
+    background-color: #3a3a4c; /* Highlight row on hover */
+}
+
+h2 {
+    margin-top: 20px;
+    color: #eaeaea; /* Lighter color for headings */
+}
+
+a {
+    text-decoration: none;
+    color: #eaeaea; /* Lighter color for links */
+}
+
+a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+button {
+    background-color: #ffcc00; /* Button background color */
+    border: none;
+    color: #0A0A18; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #e0b800; /* Darker yellow on hover */
+}
+
+form {
+    margin-bottom: 20px;
+}
